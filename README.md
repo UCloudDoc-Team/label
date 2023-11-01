@@ -1,5 +1,5 @@
 
-* [标签管理](/manage/label)
+* [标签管理](/label/label)
 
   
 
