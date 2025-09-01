@@ -1,3 +1,10 @@
-
-* [标签管理](/label/TagManagement)
-* [关联标签继承](/label/TagInheritance)
+* 产品概述
+  * [什么是标签]（）
+  * [支持标签的云服务]（）
+* 操作指南
+  * [标签管理](/label/TagManagement)
+    * 创建标签
+    * 绑定标签
+    * 解绑和删除标签
+  * [关联标签继承](/label/TagInheritance)
+* FAQ
