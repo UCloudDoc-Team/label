@@ -25,8 +25,18 @@
 
 ## 三、支持关联标签继承功能的资源
 
-| 主资源类型 | 关联资源类型 | 触发条件 |
-| --- | --- | --- |
-| **云主机UHost** | 云盘UHost | - 当云盘绑定到ECS实例时，将自动继承ECS实例的标签并跟随ECS实例标签变更。<br>- 当云盘与ECS实例解绑时，系统将自动删除云盘上已继承的标签。 |
-| | 弹性公网EIP | - 当弹性公网IP绑定到ECS实例时，将自动继承ECS实例的标签并跟随ECS实例标签变更。<br>- 当弹性公网IP与ECS实例解绑时，系统将自动删除弹性公网IP上已继承的标签。 |
+| 父资源类型 | 子资源类型 |
+| --- | --- |
+| 云主机(Host) | 云硬盘(Disk) |
+| 云主机(Host) | 弹性IP(ElasticIP) |
+| 云主机(Host) | 云硬盘系统盘(System Disk) |
+| 云主机(Host) | 分布式SSD块存储(SSD UDisk) |
+| 云主机(Host) | RSSD云盘(RDMA - SSD UDisk) |
+| 云主机(Host) | 性价比SSD云盘(Essential SSD Data Cloud Disk) |
+| 容器云(UK8S) | 云主机(Host) |
+| 容器云(UK8S) | 物理主机(PHost) |
+| 云数据库 MongoDB UDB(UDB For MongoDB) | 云数据库 MongoDB UDB 集群内节点成员(UDB For MongoDB Member) |
+| 云数据库 MongoDB UDB(UDB For MongoDB) | 云数据库 MongoDB UDB集群内虚拟节点(UDB for MongoDB Virtual Member) |
+| 云数据库 MongoDB UDB集群内虚拟节点(UDB for MongoDB Virtual Member) | 云数据库 MongoDB UDB 集群内节点成员(UDB For MongoDB Member) |
+
 
