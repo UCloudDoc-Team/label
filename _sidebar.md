@@ -1,6 +1,6 @@
 * 产品概述
-  * [什么是标签]（/label/WhatAreTags）
-  * [支持标签的云服务]（/label/SupportedServices）
+  * [什么是标签](/label/WhatAreTags)
+  * [支持标签的云服务](/label/SupportedServices)
 * 操作指南
   * [标签管理](/label/TagManagement)
     * [创建标签](/label/CreateTag)
