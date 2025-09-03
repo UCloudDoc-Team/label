@@ -4,7 +4,7 @@
   * [支持标签的云服务](/label/SupportedServices)
 * 操作指南
   
-  * [标签管理](/label/TagManagement)
+  * 标签管理
     
     * [创建标签](/label/CreateTag)
     * [绑定标签](/label/BindTag)
