@@ -6,10 +6,10 @@
     
 * 操作指南
   
-  * 标签管理
-    
+  * 标签管理   
     * [创建标签](/label/CreateTag)
     * [绑定标签](/label/BindTag)
     * [解绑和删除标签](/label/UnbindDeleteTag)
   * [关联标签继承](/label/TagInheritance)
+
 * [FAQ](/label/FAQ)
