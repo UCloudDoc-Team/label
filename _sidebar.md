@@ -1,5 +1,5 @@
 
-* [概览] (/lable/README.md)
+* [概览](/lable/README.md)
   
 * 产品概述
 
