@@ -28,15 +28,15 @@
 | 父资源类型 | 子资源类型 |
 | --- | --- |
 | 云主机(Host) | 云硬盘(Disk) |
-| 云主机(Host) | 弹性IP(ElasticIP) |
-| 云主机(Host) | 云硬盘系统盘(System Disk) |
-| 云主机(Host) | 分布式SSD块存储(SSD UDisk) |
-| 云主机(Host) | RSSD云盘(RDMA - SSD UDisk) |
-| 云主机(Host) | 性价比SSD云盘(Essential SSD Data Cloud Disk) |
+|  | 弹性IP(ElasticIP) |
+|  | 云硬盘系统盘(System Disk) |
+|  | 分布式SSD块存储(SSD UDisk) |
+|  | RSSD云盘(RDMA - SSD UDisk) |
+|  | 性价比SSD云盘(Essential SSD Data Cloud Disk) |
 | 容器云(UK8S) | 云主机(Host) |
-| 容器云(UK8S) | 物理主机(PHost) |
+|  | 物理主机(PHost) |
 | 云数据库 MongoDB UDB(UDB For MongoDB) | 云数据库 MongoDB UDB 集群内节点成员(UDB For MongoDB Member) |
-| 云数据库 MongoDB UDB(UDB For MongoDB) | 云数据库 MongoDB UDB集群内虚拟节点(UDB for MongoDB Virtual Member) |
+|  | 云数据库 MongoDB UDB集群内虚拟节点(UDB for MongoDB Virtual Member) |
 | 云数据库 MongoDB UDB集群内虚拟节点(UDB for MongoDB Virtual Member) | 云数据库 MongoDB UDB 集群内节点成员(UDB For MongoDB Member) |
 
 
