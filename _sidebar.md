@@ -3,7 +3,7 @@
   
 * 产品概述
 
-  * [什么是标签](/WhatAreTags)
+  * [什么是标签](/label/WhatAreTags)
   * [支持标签的云服务](/label/SupportedServices)
     
 * 操作指南
