@@ -13,6 +13,7 @@
 3. 在**设置**对话框，点击开启继承按钮至**ON**，然后单击确认
   - 生效存量资源：启用后，改规则也会对存量资源生效
 ![启用关联标签继承功能](images/启用标签继承.png)
+
 #### 关闭关联标签继承功能
 > **温馨提示**：关闭关联标签继承规则后，关联资源将无法自动继承主资源标签，可能影响您通过标签做资源管理、成本分摊等。
 
@@ -20,6 +21,7 @@
 2. 在**关联标签继承**页面，单击目标资源类型**操作列**的**设置**按钮。
 3. 在**设置**对话框，点击关闭继承按钮至**OFF**，然后单击确认
 ![关闭关联标签继承功能](images/关闭标签继承.png)
+
 #### 批量设置
 您可以在**关联标签继承**页面，选中多个资源后，批量设置。
 
@@ -27,16 +29,13 @@
 
 | 父资源类型 | 子资源类型 |
 | --- | --- |
-| 云主机(Host) | 云硬盘(Disk) |
+| 云主机(Host) | 普通云盘(Standard UDisk) |
 |  | 弹性IP(ElasticIP) |
 |  | 云硬盘系统盘(System Disk) |
-|  | 分布式SSD块存储(SSD UDisk) |
-|  | RSSD云盘(RDMA - SSD UDisk) |
-|  | 性价比SSD云盘(Essential SSD Data Cloud Disk) |
+|  | SSD云盘(SSD UDisk) |
+|  | RSSD云盘(RSSD UDisk) |
+|  | 经济型SSD云盘(SSD Essential) |
 | 容器云(UK8S) | 云主机(Host) |
 |  | 物理主机(PHost) |
-| 云数据库 MongoDB UDB(UDB For MongoDB) | 云数据库 MongoDB UDB 集群内节点成员(UDB For MongoDB Member) |
-|  | 云数据库 MongoDB UDB集群内虚拟节点(UDB for MongoDB Virtual Member) |
-| 云数据库 MongoDB UDB集群内虚拟节点(UDB for MongoDB Virtual Member) | 云数据库 MongoDB UDB 集群内节点成员(UDB For MongoDB Member) |
 
 
